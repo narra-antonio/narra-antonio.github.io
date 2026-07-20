@@ -1,0 +1,1 @@
+import{t as e}from"./pocketbase.CsyzLFTB.js";document.querySelectorAll(`[data-collection]`).forEach(async t=>{let n=t.dataset.collection,r=t.querySelector(`.dash-num`);try{let t=await e.collection(n).getList(1,1);r&&(r.textContent=String(t.totalItems))}catch{r&&(r.textContent=`0`)}});

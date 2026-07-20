@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Aree non pubbliche / non indicizzabili
+Disallow: /console-9f3a2b/
+Disallow: /login
+Disallow: /register
+Disallow: /profilo
+
+Sitemap: https://antonionarra.io/sitemap-index.xml
